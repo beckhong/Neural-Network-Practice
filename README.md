@@ -3,3 +3,4 @@
 
 Reference: https://github.com/MorvanZhou/Tensorflow-Tutorial
 
+![simple neuron](http://imagebank.osa.org/getImage.xqy?img=QC5sYXJnZSxvZS0xNC0xNC02NDU2LWcwMDE) 
