@@ -1,19 +1,18 @@
 # Logistic regression with Deep Learning
 
 ## Sigmoid Function
-```
 ![Sigmoid](http://latex.codecogs.com/gif.latex?f%28z%29%20%3D%20%5Cfrac%7B1%7D%7B1&plus;e%5E%7B-z%7D%7D)
-```
+
 
 ## Calculate the Output of a Neuron
 ![Simple neuron](http://imagebank.osa.org/getImage.xqy?img=QC5sYXJnZSxvZS0xNC0xNC02NDU2LWcwMDE) 
+
 (reference: https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-14-14-6456&id=90787)
 
 
 ## Bayes' Rule
-```
 ![Bayes' Rule](http://latex.codecogs.com/gif.latex?P%28Y%7CX%29%20%3D%20%5Cfrac%7BP%28X%7CY%29P%28Y%29%7D%7BP%28X%29%7D)
-```
+
 
 ##  Bayes Binary Classifier
 ### Target
