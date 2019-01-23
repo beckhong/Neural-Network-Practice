@@ -3,4 +3,3 @@
 
 Reference: https://github.com/MorvanZhou/Tensorflow-Tutorial
 
-![](http://latex.codecogs.com/gif.latex?%5Cbigcap%20%5Cbigcap%20%5Cbigcap%20%5Cbigcap%20%5Cbigcap)
