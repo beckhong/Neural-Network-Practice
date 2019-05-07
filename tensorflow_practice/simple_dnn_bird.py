@@ -26,7 +26,7 @@ COLS = ['huml', 'humw', 'ulnal', 'ulnaw', 'feml',
         'femw', 'tibl', 'tibw', 'tarl', 'tarw']
 TEST_PROPORTION = 0.3
 MINIMAX_SCALER = (-1, 1)
-LR = 0.09
+LR = 0.1
 EPOCH = 1500
 
 
@@ -87,8 +87,8 @@ def simple_bird_one_layer(train_x, test_x, train_y, test_y):
     test_x = scaler.transform(test_x)
 
     # placeholder
-    tf_x = tf.placeholder(tf.float32, [None, 10], name='tf_x')
-    tf_y = tf.placeholder(tf.float32, [None, 6], name='tf_y')
+    tf_x = tf.placeholder(tf.float32, [None, 10])
+    tf_y = tf.placeholder(tf.float32, [None, 6])
 
     # prediction with one layer, multi-class using softmax
     prediction = add_layer(tf_x, 10, 6, activation_fun=tf.nn.softmax)
